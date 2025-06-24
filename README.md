@@ -1,5 +1,7 @@
 # HZ
 
+
+<<<<<<< codex/update-readme-with-project-instructions
 ## Project Overview
 HZ is a Python application that manages cameras, controllers and scanners using serial and Modbus connections. The program provides a Tkinter based GUI for interacting with connected devices and saving configuration in `settings.json`.
 
@@ -11,7 +13,7 @@ HZ is a Python application that manages cameras, controllers and scanners using 
    ```
 3. Start the application once to generate `settings.json` if it does not exist.
 
-## Running the Application
+## Running the Applicatio
 Launch the GUI by executing:
 ```bash
 python main.py
@@ -26,3 +28,12 @@ Open the settings window from the GUI to specify IP addresses, COM ports and cou
 - `settings.json` – configuration file created at runtime.
 - `README.md` – project documentation.
 
+
+=======
+
+This package provides the `hz` module. Run the application using:
+
+```bash
+python -m hz
+```
+>>>>>>> main
